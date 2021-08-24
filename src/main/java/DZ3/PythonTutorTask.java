@@ -67,6 +67,7 @@ public class PythonTutorTask {
         chromeOptions.addArguments("user-data-dir=src/main/resources/chrome_profile");
         ChromeDriver wd = new ChromeDriver(chromeOptions);
         wd.get("https://afisha.ru");
+        //
         Thread.sleep(10000);
     }
 }

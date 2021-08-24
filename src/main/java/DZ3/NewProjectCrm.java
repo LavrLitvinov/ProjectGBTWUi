@@ -73,7 +73,7 @@ public class NewProjectCrm {
 
         wb.findElement(By.xpath("//button[@class='btn btn-success action-button']"));
 
-        //  Thread.sleep(5000);
+       
         wb.quit();
 
     }
