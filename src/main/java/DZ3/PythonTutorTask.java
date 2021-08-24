@@ -18,7 +18,6 @@ public class PythonTutorTask {
 
         WebDriverManager.chromedriver().setup();
 
-        //    scenarioWithExtention();
 
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions
@@ -29,7 +28,6 @@ public class PythonTutorTask {
                 .addArguments("user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
                  // пришлось подложтить свои реальные настройки, иначе работать не  заработало.
 
-        // пока не сработало. Рекламное окно всплывает и рушит все.
 
         WebDriver wd = new ChromeDriver(chromeOptions);
 
@@ -59,8 +57,7 @@ public class PythonTutorTask {
         ((JavascriptExecutor) wd).executeScript("scroll(0,100)"); // тренировка в прокрутке
         element.click();
         js.executeScript("arguments[0].scrollIntoView(true);", element);// тренировка в прокрутке
-        //    ((JavascriptExecutor)wd).executeScript("scroll(0,-40)");
-        //   RegistrationInPyTutor.pitStop();
+
         wd.findElement(By.xpath("//a[contains(text(),'Выйти')]")).click();
         wd.quit();
     }

@@ -50,6 +50,7 @@ public class RegistrationInPyTutor {
         System.out.println("Для продолжения нажмите 1 и ENTER");
         Scanner scanner = new Scanner(System.in);
         String stop = scanner.nextLine();
+        scanner.close();
         return;
     }
 }
