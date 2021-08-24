@@ -23,11 +23,11 @@ public class PythonTutorTask {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions
                 .addArguments("--disable-notifications")
-      //          .addArguments("incognito")
+                //          .addArguments("incognito")
                 .addArguments("--disable-popup-blocking")
                 .addArguments("test-type")
                 .addArguments("user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
-                 // пришлось подложтить свои реальные настройки, иначе работать не  заработало.
+        // пришлось подложтить свои реальные настройки, иначе работать не  заработало.
 
         // пока не сработало. Рекламное окно всплывает и рушит все.
 
@@ -42,25 +42,27 @@ public class PythonTutorTask {
         wd.findElement(By.name("username")).sendKeys("LavrLitvinov");
         wd.findElement(By.name("password")).sendKeys("PTvay");
         wd.findElement(By.xpath("//button[contains(text(),'Войти')]")).click();
-        //   RegistrationInPyTutor.pitStop();// пауза
-        Thread.sleep(2000);
-        //  wd.get("http://pythontutor.ru/lessons/inout_and_arithmetic_operations/");// костыль для преодоления е..чей рекламы
+
+
+        wd.get("http://pythontutor.ru/lessons/inout_and_arithmetic_operations/");// костыль для преодоления е..чей рекламы
 
         wd.findElement(By.xpath("//div[contains(text(),'Условия')]")).click();
 
-        Thread.sleep(2000);
-    //    wd.get("http://pythontutor.ru/lessons/ifelse/"); // костыль для преодоления е..чей рекламы
+        //    Thread.sleep(2000);
+        wd.get("http://pythontutor.ru/lessons/ifelse/"); // костыль для преодоления е..чей рекламы
         //     wd.findElement(By.xpath("//span[contains(text(),'Закрыть')]")).click(); Этот костыль не сработал
 
         wd.findElement(By.xpath("//a[contains(text(),'Минимум из двух')]")).click();
 
-        WebElement element = wd.findElement(By.xpath("//button[contains(text(),'Проверить решение на ')]")); // тренировка
+        WebElement element = wd.findElement(By.xpath("//button[contains(text(),'Проверить решение на ')]"));
 
-        ((JavascriptExecutor) wd).executeScript("scroll(0,100)"); // тренировка в прокрутке
+
         element.click();
-        js.executeScript("arguments[0].scrollIntoView(true);", element);// тренировка в прокрутке
-        //    ((JavascriptExecutor)wd).executeScript("scroll(0,-40)");
-        //   RegistrationInPyTutor.pitStop();
+        //    js.executeScript("arguments[0].scrollIntoView(true);", element);// тренировка в прокрутке
+     //   ((JavascriptExecutor) wd).executeScript("scroll(0,60)");
+
+        RegistrationInPyTutor.pitStop(); // Пауза
+
         wd.findElement(By.xpath("//a[contains(text(),'Выйти')]")).click();
         wd.quit();
     }

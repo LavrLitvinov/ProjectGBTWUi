@@ -38,7 +38,7 @@ public class RegistrationInPyTutor {
         driver.findElement(By.xpath("//input[contains(@id,'Checkbox1')]")).click();
         driver.findElement(By.xpath("//button[contains(text(),'Зарегистрироваться')]")).click();
 
-        pitStop(); // постоим, посмотрим, подумаем
+        pitStop(); // постоим, посмотрим, подумаемю Пауза
 
         driver.quit();
 
