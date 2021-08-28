@@ -40,6 +40,7 @@
             <version>1.8.0_jdk8u275-b01_linux_x64</version>
 
         </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
