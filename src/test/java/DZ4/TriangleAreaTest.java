@@ -29,7 +29,7 @@ public class TriangleAreaTest {
 
     @BeforeAll
     static void beforeAll() {
-        //System.out.println("Общее предусловие");
+
         logger.info("Что-то");
         logger.info("Общее предусловие");
         logger.debug("debug level");
