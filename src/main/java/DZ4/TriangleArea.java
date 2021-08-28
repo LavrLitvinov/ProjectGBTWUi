@@ -3,6 +3,7 @@ package DZ4;
 
 
 public class TriangleArea {
+    // готово
 
     public double a;
     public double b;

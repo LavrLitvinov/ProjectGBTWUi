@@ -20,6 +20,9 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.decimal4j/decimal4j -->
+ 
+
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
