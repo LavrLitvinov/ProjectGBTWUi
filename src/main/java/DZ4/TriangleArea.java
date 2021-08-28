@@ -1,17 +1,12 @@
 package DZ4;
 
-import org.decimal4j.util.DoubleRounder;
+
 
 public class TriangleArea {
-    public static void main(String[] args) {
-        TriangleArea test = new TriangleArea();
-        double ar =  test.triangleAreaNormData(6.3,2.0,7.0);
-        double scale = Math.pow(10, 2);
-        double result = Math.ceil(ar * scale) / scale;
 
-
-        System.out.println(result);
-    }
+    public double a;
+    public double b;
+    public double c;
 
     public double triangleAreaNormData(double a, double b, double c) {
         double p = (a + b + c) / 2;
@@ -30,4 +25,10 @@ public class TriangleArea {
         }
         return true;
     }
+
+    public boolean checkDataBoolean(double a, double b, double c) {
+        if(a <= 0 | b <= 0 | c <= 0 | a + b <= c | a + c <= b | b + c <= a ) return false;
+        return true;
+    }
+
 }
