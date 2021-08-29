@@ -8,6 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static utils.JsUtils.clickWithJs;
+
 public class PythonTutorTask {
     public static void main(String[] args) throws InterruptedException {
 
@@ -40,14 +43,14 @@ public class PythonTutorTask {
         //   RegistrationInPyTutor.pitStop();// пауза
         Thread.sleep(2000);
         //  wd.get("http://pythontutor.ru/lessons/inout_and_arithmetic_operations/");// костыль для преодоления е..чей рекламы
-
-        wd.findElement(By.xpath("//div[contains(text(),'Условия')]")).click();
+        clickWithJs(wd, wd.findElement(By.xpath("//div[contains(text(),'Условия')]")));
+   //     wd.findElement(By.xpath("//div[contains(text(),'Условия')]")).click();
 
         Thread.sleep(2000);
         //    wd.get("http://pythontutor.ru/lessons/ifelse/"); // костыль для преодоления е..чей рекламы
         //     wd.findElement(By.xpath("//span[contains(text(),'Закрыть')]")).click(); Этот костыль не сработал
-
-        wd.findElement(By.xpath("//a[contains(text(),'Минимум из двух')]")).click();
+        clickWithJs(wd, wd.findElement(By.xpath("//a[contains(text(),'Минимум из двух')]")));
+    //    wd.findElement(By.xpath("//a[contains(text(),'Минимум из двух')]")).click();
 
         WebElement element = wd.findElement(By.xpath("//button[contains(text(),'Проверить решение на ')]")); // тренировка
 

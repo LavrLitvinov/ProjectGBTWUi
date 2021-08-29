@@ -1,4 +1,4 @@
-package Lesson4.utils;
+package utils;
 
 
 import org.hamcrest.Description;

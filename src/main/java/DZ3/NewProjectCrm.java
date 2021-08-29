@@ -36,7 +36,8 @@ public class NewProjectCrm {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(By.name("crm_project[name]")));
         wb.findElement(By.name("crm_project[name]")).sendKeys("FirstFirstSecond");
 
-        Thread.sleep(3000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Укажите организацию']")));
+     //   Thread.sleep(3000);
         wb.findElement(By.xpath("//span[text()='Укажите организацию']")).click();
 
         wb.findElement(By.xpath("//div[@id='select2-drop']//input")).sendKeys("test");
@@ -88,7 +89,7 @@ public class NewProjectCrm {
 
     public static void pitStop() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Для продолжения работы чтщ-нибудь введите и ENTER!");
+        System.out.println("Для продолжения работы что-нибудь введите и ENTER!");
         String a = sc.next();
         sc.close();
     }
