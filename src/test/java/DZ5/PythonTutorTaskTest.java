@@ -95,6 +95,8 @@ public class PythonTutorTaskTest {
                 ("//b[contains(text(),'Правильное решение, поздравляем.')]"));
         assertThat(elemm, isDisplayed());
 
+
+
         // Третья попытка
         assertThat(wd.findElement(By.xpath("//b[contains(text(),'Правильное решение, поздравляем.')]")).getCssValue("color")
                 , is("rgba(0, 128, 0, 1)"));

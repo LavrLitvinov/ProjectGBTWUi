@@ -118,6 +118,7 @@ public class NewProjectCrmTest {
 
         Thread.sleep(5000); // элемент не обязан появиться. Поэтому так
 
+
         try {
             WebElement element = wb.findElement(By.xpath
                     ("//span[contains(text(),'Это значение уже используется.')]"));
@@ -126,8 +127,7 @@ public class NewProjectCrmTest {
             flag = false;
         }
         Assertions.assertTrue(flag);
-
-
+        
 
         WebElement elem = wb.findElement(By.xpath
                 ("//span[contains(text(),'Это значение уже используется.')]"));
