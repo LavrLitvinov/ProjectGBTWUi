@@ -1,4 +1,5 @@
 package DZ3;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -44,19 +45,19 @@ public class PythonTutorTask {
         Thread.sleep(2000);
         //  wd.get("http://pythontutor.ru/lessons/inout_and_arithmetic_operations/");// костыль для преодоления е..чей рекламы
         clickWithJs(wd, wd.findElement(By.xpath("//div[contains(text(),'Условия')]")));
-   //     wd.findElement(By.xpath("//div[contains(text(),'Условия')]")).click();
-
+        //     wd.findElement(By.xpath("//div[contains(text(),'Условия')]")).click();
+//http://pythontutor.ru/lessons/ifelse/problems/minimum/
         Thread.sleep(2000);
-        //    wd.get("http://pythontutor.ru/lessons/ifelse/"); // костыль для преодоления е..чей рекламы
+        wd.get("http://pythontutor.ru/lessons/ifelse/"); // костыль для преодоления е..чей рекламы
         //     wd.findElement(By.xpath("//span[contains(text(),'Закрыть')]")).click(); Этот костыль не сработал
-        clickWithJs(wd, wd.findElement(By.xpath("//a[contains(text(),'Минимум из двух')]")));
-    //    wd.findElement(By.xpath("//a[contains(text(),'Минимум из двух')]")).click();
+        //   clickWithJs(wd, wd.findElement(By.xpath("//a[contains(text(),'Минимум из двух')]")));
+        wd.findElement(By.xpath("//a[contains(text(),'Минимум из двух')]")).click();
 
         WebElement element = wd.findElement(By.xpath("//button[contains(text(),'Проверить решение на ')]")); // тренировка
 
-        ((JavascriptExecutor) wd).executeScript("scroll(0,100)"); // тренировка в прокрутке
+     //   ((JavascriptExecutor) wd).executeScript("scroll(0,100)"); // тренировка в прокрутке
         element.click();
-        js.executeScript("arguments[0].scrollIntoView(true);", element);// тренировка в прокрутке
+  //      js.executeScript("arguments[0].scrollIntoView(true);", element);// тренировка в прокрутке
         //    ((JavascriptExecutor)wd).executeScript("scroll(0,-40)");
         //   RegistrationInPyTutor.pitStop();
         wd.findElement(By.xpath("//a[contains(text(),'Выйти')]")).click();

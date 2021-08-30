@@ -74,7 +74,8 @@ public class ActionsExamplesTest {
     void checkCellsColorChangingTest() {
         driver.get(BASE_URL + "dashboard");
         driver.findElement(By.xpath("//thead[@class='grid-header']//input")).click();
-        String color = driver.findElement(By.xpath("//tbody[@class='grid-body']/tr[1]")).getCssValue("background-color");
+        String color = driver.findElement(By.xpath("//tbody[@class='grid-body']/tr[1]"))
+                .getCssValue("background-color");
         assertThat(driver.findElement(By.xpath("//tbody[@class='grid-body']/tr[1]")).getCssValue("background-color")
                 , is("rgba(254, 250, 237, 1)"));
         assertThat(driver.findElement(By.xpath("//tbody[@class='grid-body']/tr[1]")), hasColor("rgba(254, 250, 237, 10)"));
