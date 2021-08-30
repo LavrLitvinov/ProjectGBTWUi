@@ -13,9 +13,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
-
+import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.isDisplayed;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static ru.yandex.qatools.htmlelements.matchers.common.HasTextMatcher.hasText;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 
 public class NewProjectCrmTest {
     private static WebDriver wb;
@@ -114,8 +116,9 @@ public class NewProjectCrmTest {
 
         wb.findElement(By.xpath("//button[@class='btn btn-success action-button']")).click();
 
-     //   webDriverWait.wait(10000); работать не хочет.
-        Thread.sleep(5000);
+        Thread.sleep(5000); // элемент не обязан появиться. Поэтому так
+
+
 
         try {
             WebElement element = wb.findElement(By.xpath
@@ -125,6 +128,12 @@ public class NewProjectCrmTest {
             flag = false;
         }
         Assertions.assertTrue(flag);
+
+
+        
+        WebElement elem = wb.findElement(By.xpath
+                ("//span[contains(text(),'Это значение уже используется.')]"));
+        assertThat(elem,isDisplayed());
 
 
 

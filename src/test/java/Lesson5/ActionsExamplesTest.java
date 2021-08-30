@@ -25,6 +25,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 //import static ru.geekbrains.Lesson4.utils.JsUtils.clickWithJs;
 //import static ru.geekbrains.lesson5.CustomsWaiters.elementFirstInCollection;
 import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.hasText;
+import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.isDisplayed;
 
 public class ActionsExamplesTest {
     static WebDriver driver;
@@ -64,7 +65,7 @@ public class ActionsExamplesTest {
 
         List<WebElement> headersList = driver.findElements(By.xpath("//thead[@class='grid-header']//span[@class='grid-header-cell__label']"));
         Assertions.assertEquals("ВЛАДЕЛЕЦ", headersList.get(0).getText());
-
+        assertThat(headersList.get(0), isDisplayed());
         assertThat(headersList.get(0), hasText("ВЛАДЕЛЕЦ"));
 
         Thread.sleep(10000);

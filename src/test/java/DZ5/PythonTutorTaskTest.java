@@ -1,6 +1,7 @@
 package DZ5;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.hamcrest.Matcher;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -11,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.isDisplayed;
 
 import java.util.NoSuchElementException;
 
@@ -38,7 +41,7 @@ public class PythonTutorTaskTest {
                 .addArguments("--disable-notifications").addArguments("--disable-popup-blocking")
                 .addArguments("test-type")
                 .addArguments("incognito");
-          //      .addArguments("user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
+        //      .addArguments("user-data-dir=C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data\\Default");
 
         wd = new ChromeDriver(chromeOptions);
         wd.manage().window().maximize();
@@ -76,6 +79,8 @@ public class PythonTutorTaskTest {
         js.executeScript("scroll(0,350)");
 
         Thread.sleep(5000);
+
+        // Первая попытка
         try {
             WebElement elem = wd.findElement(By.xpath
                     ("//b[contains(text(),'Правильное решение, поздравляем.')]"));
@@ -85,24 +90,17 @@ public class PythonTutorTaskTest {
         }
         Assertions.assertTrue(flag);
 
-        String color = wd.findElement(By.xpath("//b[contains(text(),'Правильное решение, поздравляем.')]"))
-                .getCssValue("color");
+        // Вторая попытка
+        WebElement elemm = wd.findElement(By.xpath
+                ("//b[contains(text(),'Правильное решение, поздравляем.')]"));
+        assertThat(elemm, isDisplayed());
+        // Третья попытка
         assertThat(wd.findElement(By.xpath("//b[contains(text(),'Правильное решение, поздравляем.')]")).getCssValue("color")
-               , is("rgba(0, 128, 0, 1)"));
-
-
-
-
+                , is("rgba(0, 128, 0, 1)"));
 
         wd.findElement(By.xpath("//a[contains(text(),'Выйти')]")).click();
 
 
-
-
-
-
-
     }
-
 
 }
