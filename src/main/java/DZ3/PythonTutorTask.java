@@ -46,7 +46,7 @@ public class PythonTutorTask {
         //  wd.get("http://pythontutor.ru/lessons/inout_and_arithmetic_operations/");// костыль для преодоления е..чей рекламы
         clickWithJs(wd, wd.findElement(By.xpath("//div[contains(text(),'Условия')]")));
         //     wd.findElement(By.xpath("//div[contains(text(),'Условия')]")).click();
-//http://pythontutor.ru/lessons/ifelse/problems/minimum/
+      //http://pythontutor.ru/lessons/ifelse/problems/minimum/
         Thread.sleep(2000);
         wd.get("http://pythontutor.ru/lessons/ifelse/"); // костыль для преодоления е..чей рекламы
         //     wd.findElement(By.xpath("//span[contains(text(),'Закрыть')]")).click(); Этот костыль не сработал
