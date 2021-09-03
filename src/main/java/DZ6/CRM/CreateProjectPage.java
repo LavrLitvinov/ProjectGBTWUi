@@ -80,6 +80,16 @@ public class CreateProjectPage extends BaseAction {
 
 
     // начало iframe надо вставить
+    public CreateProjectPage testFrame(String strTest) throws InterruptedException {
+        driver.switchTo().frame(driver.findElement(By.xpath("//iframe[contains(@id, 'crm_project_planning-uid')]")));
+        driver.findElement(By.xpath("//body")).sendKeys(strTest);
+        driver.switchTo().defaultContent();
+     //   js.executeScript("scroll(0,550)");
+        return this;
+    }
+
+
+    // конец фрейма
 
     @FindBy(xpath = "//select[@name='crm_project[financeSource]']")
     public WebElement selectFinans;

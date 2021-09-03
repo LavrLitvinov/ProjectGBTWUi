@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.NoSuchElementException;
 
@@ -42,10 +43,15 @@ public class NewCRMObjectTest extends BeforeBeginingTest {
                 .selectFinansClic("Внутреннее")
                 .selectDepartament("Research & Development")
                 .selectCurator("Applanatest Applanatest Applanatest")
+                .testFrame("Тестовая строка")
                 .selectProjectRp("Applanatest Applanatest Applanatest")
                 .selectProjectManager("Applanatest Applanatest Applanatest")
                 .endButtonClic();
-            Thread.sleep(4000);
+         //   Thread.sleep(4000);
+        webDriverWait.until(ExpectedConditions.presenceOfElementLocated
+                (By.xpath("//span[contains(text(),'Это значение уже используется.')]")));
+
+
         try {
             WebElement element = driver.findElement(By.xpath
                     ("//span[contains(text(),'Это значение уже используется.')]"));
