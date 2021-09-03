@@ -55,8 +55,6 @@ public class NewCRMObjectTest extends BeforeBeginingTest {
         }
         Assertions.assertTrue(flag);
 
-
-
         WebElement elem = driver.findElement(By.xpath
                 ("//span[contains(text(),'Это значение уже используется.')]"));
         assertThat(elem,isDisplayed());
