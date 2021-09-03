@@ -54,9 +54,11 @@ public class CreateCrmProjectExample {
                 driver.findElement(By.xpath("//div[contains(@id, 's2id_crm_project_company')]/a")), "123test"));
         Thread.sleep(1000);//TODO: подебажить это ожидание
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='select2-container select2']")));
-        driver.findElement(By.xpath("//div[contains(@id, 's2id_crm_project_contactMain-uid')]/a")).click();
+        driver.findElement(By.xpath("//div[contains(@id, 's2id_crm_project_contactMain-uid')]/a")).click(); //
+
         webDriverWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='select2-drop']//input")));
         driver.findElement(By.xpath("//div[@id='select2-drop']//input")).sendKeys("1111");
+
         driver.findElement(By.xpath("//div[@id='select2-drop']//input")).sendKeys(Keys.ENTER);
 
         driver.switchTo().frame(driver.findElement(By.xpath("//iframe[contains(@id, 'crm_project_planning-uid')]")));
