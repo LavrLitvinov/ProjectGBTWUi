@@ -1,14 +1,12 @@
-package DZ3;
+package DZ6.CRM;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.swing.*;
 import java.util.List;
 import java.util.Scanner;
 
@@ -26,7 +24,7 @@ public class NewProjectCrm {
 
         WebElement projectMenu = wb.findElement(By.xpath("//a/span[contains(text(),'Проекты')]"));
         action.moveToElement(projectMenu).perform();
-        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a/span[contains(text(),'Все проекты')]")));//
+        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a/span[contains(text(),'Все проекты')]")));
         wb.findElement(By.xpath("//a/span[contains(text(),'Все проекты')]")).click();
 
         //   Thread.sleep(5000);
@@ -52,14 +50,12 @@ public class NewProjectCrm {
                 wb.findElement(By.xpath("//div[contains(@id, 's2id_crm_project_company')]/a")), "123test"));
 
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='select2-container select2']")));
-
         wb.findElement(By.xpath("//div[contains(@id, 's2id_crm_project_contactMain-uid')]/a")).click();
-
         webDriverWait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='select2-drop']//input")));
         wb.findElement(By.xpath("//div[@id='select2-drop']//input")).sendKeys("1111");
         wb.findElement(By.xpath("//div[@id='select2-drop']//input")).sendKeys(Keys.ENTER);
 
-        wb.switchTo().frame(wb.findElement(By.xpath("//iframe[contains(@id, 'crm_project_planning-uid')]")));  ///
+        wb.switchTo().frame(wb.findElement(By.xpath("//iframe[contains(@id, 'crm_project_planning-uid')]")));
         wb.findElement(By.xpath("//body")).sendKeys("testtest");
 
         wb.switchTo().defaultContent();
@@ -75,7 +71,7 @@ public class NewProjectCrm {
         Select dropdown1 = new Select(wb.findElement(By.xpath("//select[@name='crm_project[curator]']")));
         dropdown1.selectByVisibleText("Applanatest Applanatest Applanatest");
 
-        wb.findElement(By.xpath("//button[@class='btn btn-success action-button']")).click();
+        wb.findElement(By.xpath("//button[@class='btn btn-success action-button']"));
 
         //  Thread.sleep(5000);
         wb.quit();
