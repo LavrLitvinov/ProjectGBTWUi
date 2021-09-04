@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc90de2d-96c0-4f51-ae90-b027ceb18724" name="Default Changelist" comment="" />
+    <list default="true" id="cc90de2d-96c0-4f51-ae90-b027ceb18724" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ3/NewProjectCrm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ3/PythonTutorTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ3/RegistrationInPyTutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DZ5/NewProjectCrmTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DZ5/PythonTutorTaskTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/AssertJExamples.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/AssumptionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/BoxTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/FunctionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/utils/ColorMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/utils/JsUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/utils/TimingExtention.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson5/ActionsExamplesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/PageObjectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ3/NewProjectCrm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ3/PythonTutorTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ3/RegistrationInPyTutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ5/NewProjectCrmTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ5/PythonTutorTaskTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/AssertJExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/AssumptionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/BoxTest$WhenEmpty$WhenWithBalls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/BoxTest$WhenEmpty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/BoxTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/FunctionsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/utils/ColorMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/utils/JsUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson4/utils/TimingExtention.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Lesson5/ActionsExamplesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson6/PageObjectTest.class" beforeDir="false" />
+    </list>
     <list id="c5142e5b-0411-4970-a1ae-ad7e453fffb1" name="New changelist" comment="New changelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +118,7 @@
       <recent name="DZ6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestPythonObjectPage">
+  <component name="RunManager" selected="JUnit.TriangleAreaTest">
     <configuration name="NewCRMObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectGBTWUi" />
       <extension name="coverage">
@@ -93,21 +129,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="DZ6.NewProjectCrmObjectTest" />
       <option name="MAIN_CLASS_NAME" value="DZ6.NewProjectCrmObjectTest.NewCRMObjectTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewProjectCrmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectGBTWUi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DZ5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DZ5" />
-      <option name="MAIN_CLASS_NAME" value="DZ5.NewProjectCrmTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,13 +180,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TriangleAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectGBTWUi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DZ4" />
+      <option name="MAIN_CLASS_NAME" value="DZ4.TriangleAreaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestPythonObjectPage.testPythonPage" />
+        <item itemvalue="JUnit.TriangleAreaTest" />
         <item itemvalue="JUnit.TestPythonObjectPage" />
-        <item itemvalue="JUnit.PageObjectTest" />
-        <item itemvalue="JUnit.NewProjectCrmTest" />
         <item itemvalue="JUnit.NewCRMObjectTest" />
+        <item itemvalue="JUnit.TestPythonObjectPage.testPythonPage" />
+        <item itemvalue="JUnit.PageObjectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630750738698</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Вход">
+      <created>1630752235706</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1630752235706</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Commit for Lesson" />
     <MESSAGE value="DZ3" />
     <MESSAGE value="DZ3New" />
     <MESSAGE value="Промежуточное сохранение" />
@@ -438,7 +480,8 @@
     <MESSAGE value="Вход на задание" />
     <MESSAGE value="Вырезали все лишнее" />
     <MESSAGE value="Не работает" />
-    <option name="LAST_COMMIT_MESSAGE" value="Не работает" />
+    <MESSAGE value="Вход" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вход" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
