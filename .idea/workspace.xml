@@ -5,39 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc90de2d-96c0-4f51-ae90-b027ceb18724" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/01455b79-5a0f-49dc-ae72-1b9ec4c00a04-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/10262de2-2514-4522-ac76-930ca6b32a4e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/17494447-c97d-4be2-9745-758f0b8e9cb0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1a79eefc-196c-422f-963a-6e3607bbda28-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/22208e1d-2e99-4a6e-a65e-45f1f2e684d3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/26eac57b-f09a-4ede-a2fd-fd23d2d314df-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2e01cb17-88c3-4a03-9af7-8412e7907c9f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/2e4fdd7e-91d7-4c2e-8633-d6ac62e81599-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/3fe4dc16-313e-4963-a3b2-4b1b502bb78e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/55f4181e-e5ce-4a82-a94e-82057dbe1634-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/763aa86d-a868-4de5-ac2a-c64b6526abc7-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/81e8c172-efc5-4d09-a86c-5c1db5d905a5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8af65736-7329-4062-a6a4-24aad41da987-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8b17607d-7ef1-4ffb-b7e5-a2368f853d28-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8bd1de2b-d449-40e2-a858-3d41650d571f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/903cea44-75ab-4766-beab-21f423ed306e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/94894fd8-4d15-432d-9f4c-b11998c8e2c9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/9cb258a9-dc2e-488f-a01e-9f431b619b45-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a30ac4dd-bacb-43ca-a113-9a6a09c72cfd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/a7057692-0a96-4ea1-9cac-88fcc9396f1b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/af82cf0d-0729-413c-a424-0d3e38de5ccb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b8dcb57c-4ede-40ed-a4fe-7056f17a9c7a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/b95f0726-99e2-4d13-8bee-c4e37445c34f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/bcc450f1-2c13-4e4c-818e-ae7816ccbca3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ce1ff6f2-0972-49e9-aad0-19931e48c3ac-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e0ba203c-be06-4fdc-8b04-f75ffe70f23d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e675ded6-850e-4e03-93c9-eccfe7b60747-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e727223b-3ff2-493f-8c50-165110a4de40-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/e7fcc413-2af3-4457-9248-b21c0a832d6b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f2ea7b2f-dce2-4548-a77a-e3d706f720e4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f43ce33b-c41e-4d2a-9992-18fc29ab620f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/f9e5bbe8-244c-4295-8c84-a4d5be3b09d8-container.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DZ6/ListenerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/CRM/CreateProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/CRM/CreateProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/CRM/LoginToCRM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/CRM/LoginToCRM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/CRM/NewProjectCrm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/InoutAndArithmeticOperationsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/InoutAndArithmeticOperationsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/IntransPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/IntransPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DZ4/TriangleAreaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DZ4/TriangleAreaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DZ6/BaseActionBeforeAndAfterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DZ6/BaseActionBeforeAndAfterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DZ6/NewProjectCrmObjectTest/BeforeBeginingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DZ6/NewProjectCrmObjectTest/BeforeBeginingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/CRM/CreateProjectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/CRM/CreateProjectPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/CRM/LoginToCRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/CRM/LoginToCRM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/CRM/NewProjectCrm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/InoutAndArithmeticOperationsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/InoutAndArithmeticOperationsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/IntransPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/IntransPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ4/TriangleAreaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ4/TriangleAreaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ6/BaseActionBeforeAndAfterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ6/BaseActionBeforeAndAfterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ6/NewProjectCrmObjectTest/BeforeBeginingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ6/NewProjectCrmObjectTest/BeforeBeginingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ6/NewProjectCrmObjectTest/NewCRMObjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ6/NewProjectCrmObjectTest/NewCRMObjectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ6/TestPythonObjectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ6/TestPythonObjectPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logback.xml" afterDir="false" />
     </list>
     <list id="c5142e5b-0411-4970-a1ae-ad7e453fffb1" name="New changelist" comment="New changelist" />
     <option name="SHOW_DIALOG" value="false" />
@@ -448,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630752661393</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Начинаем писать аннотации">
+      <created>1630839462278</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1630839462278</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DZ3New" />
     <MESSAGE value="Промежуточное сохранение" />
     <MESSAGE value="Промежуточное сохранение1" />
     <MESSAGE value="Промежуточное сохранение3" />
@@ -490,7 +490,8 @@
     <MESSAGE value="Не работает" />
     <MESSAGE value="Вход" />
     <MESSAGE value="Убрали часть тестов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Убрали часть тестов" />
+    <MESSAGE value="Начинаем писать аннотации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начинаем писать аннотации" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

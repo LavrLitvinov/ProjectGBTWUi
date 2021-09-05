@@ -1,5 +1,6 @@
 package DZ6;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,16 +20,18 @@ public class IntransPage extends BaseAction{
 
     @FindBy(xpath = INTRANSBUTTON)
     public WebElement clickButton;
-
+    @Step("Заполнение username")
     public IntransPage inputUsername (String username){
         usernameInput.sendKeys(username);
         return this;
     }
-
+   @Step("Заполнение password")
     public IntransPage inputPassword(String password){
         passwordInput.sendKeys(password);
         return this;
     }
+
+    @Step("Kликаем на вход")
     public void  inputClicButton(){
         clickButton.click();
 

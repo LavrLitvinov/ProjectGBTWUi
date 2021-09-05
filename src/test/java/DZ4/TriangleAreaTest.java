@@ -1,6 +1,8 @@
 package DZ4;
 
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -17,10 +19,10 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 
-
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType;
 
+@Story("Рассчет площади треугольника по трем сторонам")
 public class TriangleAreaTest {
 
 
@@ -54,6 +56,7 @@ public class TriangleAreaTest {
         Assertions.assertEquals(6.16, result);
     }
 
+    @Description("Пакетный метод")
     @DisplayName("Позитивная проверка пакетным методом")
     @ParameterizedTest
     @CsvSource({"6.3,2.0,7.0,6.16", "9.4, 3.0, 10.4, 13.84", "14.3, 17.8, 9.3, 66.18"})
