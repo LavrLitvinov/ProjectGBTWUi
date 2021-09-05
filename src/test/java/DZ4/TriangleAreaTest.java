@@ -69,7 +69,7 @@ public class TriangleAreaTest {
 
     @ParameterizedTest
     @DisplayName("Смешаные проверки пакетом")
-    @CsvSource({"6.9, 19.9, 8.0, false", "8.8, 12.4, 6.1, true", "-2.3, 8.0, 9.1, false"})
+    @CsvSource({"6.9, 19.9, 8.0, false", "8.8, 12.4, 6.1, true", "2.3, 8.0, 9.1, false"})
     void checkDataBooleanTestParam(double a, double b, double c, boolean result) {
         Assertions.assertEquals(testResult.checkDataBoolean(a, b, c), result);
     }

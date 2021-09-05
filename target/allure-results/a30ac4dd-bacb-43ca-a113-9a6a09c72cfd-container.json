@@ -1,0 +1,1 @@
+{"uuid":"a30ac4dd-bacb-43ca-a113-9a6a09c72cfd","name":"TestPythonObjectPage","children":["01455b79-5a0f-49dc-ae72-1b9ec4c00a04"],"befores":[{"name":"webdriwerInit","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1630834823015,"stop":1630834823028}],"afters":[],"links":[],"start":1630834823014,"stop":1630834843093}

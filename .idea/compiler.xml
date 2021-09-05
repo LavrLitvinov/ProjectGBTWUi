@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ProjectGBTWUi" target="11.0.10" />
+      <module name="ProjectGBTWUi" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
