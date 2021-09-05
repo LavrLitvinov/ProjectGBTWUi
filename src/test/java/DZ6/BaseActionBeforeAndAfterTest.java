@@ -1,14 +1,20 @@
 package DZ6;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Allure;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.Iterator;
 
 public class BaseActionBeforeAndAfterTest {
     EventFiringWebDriver driver;
@@ -33,6 +39,13 @@ public class BaseActionBeforeAndAfterTest {
     }
     @AfterEach
     void killProcess(){
+        LogEntries browserConsolLogs = driver.manage().logs().get(LogType.BROWSER);
+        Iterator<LogEntry> iterator = browserConsolLogs.iterator();
+        while (iterator.hasNext()){
+            Allure.addAttachment("Элемент лога",iterator.next().getMessage());
+
+        }
+
         driver.quit();
     }
 }
