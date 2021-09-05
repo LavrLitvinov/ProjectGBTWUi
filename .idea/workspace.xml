@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc90de2d-96c0-4f51-ae90-b027ceb18724" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DZ6/ListenerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/CRM/CreateProjectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/CRM/CreateProjectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/CRM/LoginToCRM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/CRM/LoginToCRM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/CRM/NewProjectCrm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/InoutAndArithmeticOperationsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/InoutAndArithmeticOperationsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/IntransPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/IntransPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DZ6/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ6/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DZ4/TriangleAreaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DZ4/TriangleAreaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DZ6/BaseActionBeforeAndAfterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DZ6/BaseActionBeforeAndAfterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DZ6/NewProjectCrmObjectTest/BeforeBeginingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DZ6/NewProjectCrmObjectTest/BeforeBeginingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/CRM/CreateProjectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/CRM/CreateProjectPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/CRM/LoginToCRM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/CRM/LoginToCRM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/CRM/NewProjectCrm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/InoutAndArithmeticOperationsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/InoutAndArithmeticOperationsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/IntransPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/IntransPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DZ6/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DZ6/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ4/TriangleAreaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ4/TriangleAreaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ6/BaseActionBeforeAndAfterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ6/BaseActionBeforeAndAfterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ6/NewProjectCrmObjectTest/BeforeBeginingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ6/NewProjectCrmObjectTest/BeforeBeginingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ6/NewProjectCrmObjectTest/NewCRMObjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ6/NewProjectCrmObjectTest/NewCRMObjectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DZ6/TestPythonObjectPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DZ6/TestPythonObjectPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logback.xml" afterDir="false" />
+    </list>
+    <list id="c5142e5b-0411-4970-a1ae-ad7e453fffb1" name="New changelist" comment="New changelist" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="DZ6" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1wuiVDOK5aPplJtpn1PeVUHLHAT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2932138" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DZ4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectGBTWUi\src\test\java" />
+      <recent name="D:\ProjectGBTWUi\src\main\java" />
+      <recent name="D:\ProjectGBTWUi\src\main\java\Lesson4" />
+      <recent name="D:\ProjectGBTWUi\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProjectGBTWUi\target" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="DZ6" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DZ6.CRM" />
+      <recent name="DZ6.Python" />
+      <recent name="DZ6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TriangleAreaTest">
+    <configuration name="NewCRMObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectGBTWUi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ6.NewProjectCrmObjectTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DZ6.NewProjectCrmObjectTest" />
+      <option name="MAIN_CLASS_NAME" value="DZ6.NewProjectCrmObjectTest.NewCRMObjectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectGBTWUi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson6" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.PageObjectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPythonObjectPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectGBTWUi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DZ6" />
+      <option name="MAIN_CLASS_NAME" value="DZ6.TestPythonObjectPage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPythonObjectPage.testPythonPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectGBTWUi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DZ6" />
+      <option name="MAIN_CLASS_NAME" value="DZ6.TestPythonObjectPage" />
+      <option name="METHOD_NAME" value="testPythonPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleAreaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectGBTWUi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DZ4" />
+      <option name="MAIN_CLASS_NAME" value="DZ4.TriangleAreaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TriangleAreaTest" />
+        <item itemvalue="JUnit.TestPythonObjectPage" />
+        <item itemvalue="JUnit.NewCRMObjectTest" />
+        <item itemvalue="JUnit.TestPythonObjectPage.testPythonPage" />
+        <item itemvalue="JUnit.PageObjectTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5142e5b-0411-4970-a1ae-ad7e453fffb1" name="New changelist" comment="" />
+      <changelist id="cc90de2d-96c0-4f51-ae90-b027ceb18724" name="Default Changelist" comment="" />
+      <created>1629314897984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629314897984</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Commit. The project has been created">
+      <created>1629316637012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629316637012</updated>
+    </task>
+    <task id="LOCAL-00002" summary="PyhonTest">
+      <created>1629798327442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629798327442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="PyhonTest">
+      <created>1629799021525</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629799021525</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit for Lesson">
+      <created>1629800793906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629800793906</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DZ3">
+      <created>1629822634839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629822634839</updated>
+    </task>
+    <task id="LOCAL-00006" summary="DZ3New">
+      <created>1629826982767</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629826982767</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DZ3New">
+      <created>1629827119008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629827119008</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DZ3New">
+      <created>1629827214284</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629827214284</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DZ3New">
+      <created>1629828103777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629828103777</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Промежуточное сохранение">
+      <created>1630095886809</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630095886809</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Промежуточное сохранение1">
+      <created>1630099837904</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1630099837904</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Промежуточное сохранение3">
+      <created>1630138455857</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1630138455857</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Промежуточное сохранение4">
+      <created>1630148098538</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1630148098538</updated>
+    </task>
+    <task id="LOCAL-00014" summary="DZ4">
+      <created>1630148455352</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1630148455352</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Промежуточное сохранение5">
+      <created>1630238810235</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1630238810235</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Промежуточное сохранение6">
+      <created>1630240817935</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1630240817935</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Промежуточное сохранение 7">
+      <created>1630258008444</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1630258008444</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Промежуточное сохранение 8">
+      <created>1630260013306</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1630260013306</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Промежуточное сохранение 9">
+      <created>1630330729010</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1630330729010</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Промежуточное сохранение 10">
+      <created>1630353242950</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1630353242950</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Промежуточное сохранение 15">
+      <created>1630481350579</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1630481350579</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Промежуточное сохранение 16">
+      <created>1630481679298</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1630481679298</updated>
+    </task>
+    <task id="LOCAL-00023" summary="7">
+      <created>1630568801981</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1630568801981</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Промежуточное сохранение Питона">
+      <created>1630598555599</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1630598555599</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Промежуточное сохранение CRM">
+      <created>1630661159564</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1630661159564</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Окончатекльное сохранение CRM">
+      <created>1630661637474</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1630661637474</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Добавлено заполнение фреймов и почищены слипы в CRM">
+      <created>1630664529182</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1630664529182</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Д7">
+      <created>1630702485244</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1630702485244</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Вход на задание">
+      <created>1630737700137</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1630737700137</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Вырезали все лишнее">
+      <created>1630748298748</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1630748298748</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Не работает">
+      <created>1630750738698</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1630750738698</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Вход">
+      <created>1630752235706</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1630752235706</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Убрали часть тестов">
+      <created>1630752661393</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1630752661393</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Начинаем писать аннотации">
+      <created>1630839462278</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1630839462278</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Промежуточное сохранение" />
+    <MESSAGE value="Промежуточное сохранение1" />
+    <MESSAGE value="Промежуточное сохранение3" />
+    <MESSAGE value="Промежуточное сохранение4" />
+    <MESSAGE value="DZ4" />
+    <MESSAGE value="Промежуточное сохранение5" />
+    <MESSAGE value="Промежуточное сохранение6" />
+    <MESSAGE value="Промежуточное сохранение 7" />
+    <MESSAGE value="Промежуточное сохранение 8" />
+    <MESSAGE value="Промежуточное сохранение 9" />
+    <MESSAGE value="Промежуточное сохранение 10" />
+    <MESSAGE value="Промежуточное сохранение 15" />
+    <MESSAGE value="Промежуточное сохранение 16" />
+    <MESSAGE value="7" />
+    <MESSAGE value="Промежуточное сохранение Питона" />
+    <MESSAGE value="Промежуточное сохранение CRM" />
+    <MESSAGE value="Окончатекльное сохранение CRM" />
+    <MESSAGE value="Добавлено заполнение фреймов и почищены слипы в CRM" />
+    <MESSAGE value="Д7" />
+    <MESSAGE value="Вход на задание" />
+    <MESSAGE value="Вырезали все лишнее" />
+    <MESSAGE value="Не работает" />
+    <MESSAGE value="Вход" />
+    <MESSAGE value="Убрали часть тестов" />
+    <MESSAGE value="Начинаем писать аннотации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начинаем писать аннотации" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
